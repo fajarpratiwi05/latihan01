@@ -9,11 +9,32 @@
  
  <style>
     h1{color:darkmagenta;font-size: 50px;}
-    h2{color:cornflowerblue;}
-    h3{color:blueviolet;}
+    h2{color:cornflowerblue;text-shadow: 2px 2px 4px black;}
+    h3{color:blueviolet;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
     h4{color:blue;}
     h5{color:brown;}
     h6{color:#785;}
+    p{font-size: 25px;color: cadetblue;}
+    table{
+      width: 50%;
+    }
+    table, th, td{
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+    th{
+      text-align: center;
+    }
+    tr:hover{
+      background-color: silver;
+    }
+    button{
+      background-color: blanchedalmond;
+      color: blue;
+      padding: 5px 20px 5px 20px;
+      border: none;
+      border-radius: 18px 0;
+    }
   </style> 
 </head>
 
@@ -24,9 +45,54 @@
   <h4>ayoo habiskan uangmu</h4>
   <h5>bayangkan geprek di kantin</h5>
   <h6>AYOO MAKAN</h6>
-
   <button onclick="console.log('hello');">ngantuk cuyy</button>
   
+<p>suatu hari saya ngantuk saat ada matkul di kampus <br> saat ini saya sangat ingin <strong>pulang</strong> dan <i>tidur</i> namun keadaan memaksa sya untuk tetap <sup>belajar</sup> dan bersemangat mencari O<sub>2</sub> dan ilmu di kampus <u>SEMANGATTTTTTTTTT</u></p>
+<p>motifasi tetap lah bernafas</p>
+<ul>
+  <h4>daftar</h4>
+  <li>mandi</li>
+  <li>makan</li>
+  <li>tidur</li>
+</ul>
+<hr>
+<ol style="color: green;list-style: lower-greek;">
+  <li>bernafas</li>
+  <li>bersosialisasi</li>
+</ol>
+<p>
+  <h3>tabel harga</h3>
+  <table>
+    <thead>
+      <tr>
+        <th> nomor </th>
+        <th> item barang </th>
+        <th> harga satuan </th>
+      </tr>
+
+    </thead>
+    <tbody>
+      <tr>
+        <td>1.</td>
+        <td>kol</td>
+        <td>5.000</td>
+      </tr>
+  
+      <tr>
+        <td>2.</td>
+        <td>kangkung</td>
+        <td>10.000</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>wortel</td>
+        <td>9.000</td>
+      </tr>
+    </tbody>
+    
+    
+  </table>
+</p>
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
