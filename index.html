@@ -35,6 +35,30 @@
       border: none;
       border-radius: 18px 0;
     }
+
+     label{font-size: 14px;font-weight: bold;}
+     input[type=text], input[type=number],input[type=date], input[type=time],input[type=password]{
+      width: 100%;
+      padding: 12px 20px;
+      border-radius: 5px;
+      margin: 15px;
+      color: gainsboro;
+      background-color: darkgrey;
+      font-size: 17px;
+     }
+     select{
+      width: 100%;
+      padding: 12px 20px;
+      border-radius: 5px;
+      margin: 15px;
+      color: rgb(135, 216, 209);
+      background-color: rgb(98, 79, 99);
+      font-size: 17px;
+     }
+     input[type=checkbox], input[type=radio]{
+        outline: 1px solid #c677c6;
+     }
+
   </style> 
 </head>
 
@@ -94,5 +118,42 @@
   </table>
 </p>
   <script defer type="text/javascript" src="/main.js"></script>
+
+<form>
+  <label>Form Text</label>
+    <input type="text" name="txalamat" value="Morning Beb" id="txalamat" class="txalamat">
+  <label> Form Number</label>
+    <input type="number">
+  <label>Form Tgl</label>
+    <input type="date">
+    <br>
+  <label>Form Waktu</label>
+    <input type="time">
+    <br>
+  <label>Form Pilihan</label>
+    <input type="radio" name="jnsk"> Laki-Laki
+    <input type="radio" name="jnsk">Perempuan
+    <br>
+    <input type="checkbox"> Menggambar
+    <input type="checkbox"> Melukis
+    <input type="checkbox"> Sketsa Dasar
+    <input type="checkbox"> Grdasi Warna
+  <label>Form Pilihan Lain</label>
+    <select>
+       <option disable selected> Silahkan PIlih Warna</option>
+       <option>putih</option>
+       <option>biru</option>
+       <Option>hitam</Option>
+    </select>
+    <label>Form Password</label>
+    <input type="password" name="txpass">
+    <input  type="submit" value="tombol">
+
+
+</form>
+
+ 
+
+  
 </body>
 </html>
